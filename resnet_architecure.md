@@ -18,8 +18,19 @@ The advantage of adding this type of skip connection is because if any layer hur
 
 # ResNet model family
 
+Convulutional blocks in each ResNet model
+
 ![](/img/resnet_models_architecure.png)
 
 Each ResNet block is either 2 layer deep (Used in small networks like ResNet 18, 34) or 3 layer deep( ResNet 50, 101, 152).
 
 ![](/img/resnet_models_architecure_2.png)
+
+## Resnet Image Classification
+| Model    | Nano (optimized) | TX2 (optimized)    | RTX (optimized)    |GTX-1650 (optimized)    |
+|----------|:--------------:|:---------------:|:----------------:|:-----------------:|
+| resnet18 | 91.5 | 205 | 1420 | 1170 |
+| resnet34 | 51.4 | 117 | 833 | 409 |
+| resnet50 | 34.3 | 78.7 | 715 | 409 |
+| resnet101 | 19.9 | 46.3 | 378 | 251 |
+| resnet152 | 12.7 | 31.2 | 44 |
