@@ -10,6 +10,7 @@ When we increase the number of layers significantly, there is a common problem i
 
 <img src="/img/residual_block.png">
 ![](/img/residual_block.png)
+![](https://img.shields.io/static/v1?label=python&message=3.6|3.7&color=blue)
 
 ResNet blocks use a technique called skip connections . The skip connection skips training from a few layers and connects directly to the output.
 
