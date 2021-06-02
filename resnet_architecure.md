@@ -8,7 +8,7 @@ When we increase the number of layers significantly, there is a common problem i
 
 ## Intuition behind resnet blocks
 
-<img src="img/residual_block.png">
+<img src="./img/residual_block.png">
 
 ResNet blocks use a technique called skip connections . The skip connection skips training from a few layers and connects directly to the output.
 
