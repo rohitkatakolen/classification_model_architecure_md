@@ -8,9 +8,7 @@ When we increase the number of layers significantly, there is a common problem i
 
 ## Intuition behind resnet blocks
 
-<img src="/img/residual_block.png">
-![](/img/residual_block.png)
-![](https://img.shields.io/static/v1?label=python&message=3.6|3.7&color=blue)
+![](/img/residual_block.jpg)
 
 ResNet blocks use a technique called skip connections . The skip connection skips training from a few layers and connects directly to the output.
 
@@ -20,8 +18,8 @@ The advantage of adding this type of skip connection is because if any layer hur
 
 # ResNet model family
 
-Image 2
+![](/img/resnet_models_architecure.png)
 
 Each ResNet block is either 2 layer deep (Used in small networks like ResNet 18, 34) or 3 layer deep( ResNet 50, 101, 152).
 
-Image 3
+![](/img/resnet_models_architecure_2.png)
