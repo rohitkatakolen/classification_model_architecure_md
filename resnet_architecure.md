@@ -33,4 +33,4 @@ Each ResNet block is either 2 layer deep (Used in small networks like ResNet 18,
 | resnet34 | 51.4 | 117 | 833 | 706 |
 | resnet50 | 34.3 | 78.7 | 715 | 409 |
 | resnet101 | 19.9 | 46.3 | 378 | 251 |
-| resnet152 | 12.7 | 31.2 | 44 |
+| resnet152 | 12.7 | 31.2 | 44 | 179 |
