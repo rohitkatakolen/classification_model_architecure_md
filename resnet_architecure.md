@@ -30,7 +30,7 @@ Each ResNet block is either 2 layer deep (Used in small networks like ResNet 18,
 | Model    | Nano (optimized) | TX2 (optimized)    | RTX (optimized)    |GTX-1650 (optimized)    |
 |----------|:--------------:|:---------------:|:----------------:|:-----------------:|
 | resnet18 | 91.5 | 205 | 1420 | 1170 |
-| resnet34 | 51.4 | 117 | 833 | 409 |
+| resnet34 | 51.4 | 117 | 833 | 706 |
 | resnet50 | 34.3 | 78.7 | 715 | 409 |
 | resnet101 | 19.9 | 46.3 | 378 | 251 |
 | resnet152 | 12.7 | 31.2 | 44 |
