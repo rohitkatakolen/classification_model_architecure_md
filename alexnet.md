@@ -13,7 +13,7 @@ AlexNet is an convolutional neural network which has had a large impact on the f
 
 # AlexNet model architecture
 
-![](/img/alexnet_models_architecure.png)
+![](/img/alexnet_model_architecure.png)
 
 
 ## AlexNet Image Classification
