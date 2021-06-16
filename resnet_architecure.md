@@ -1,4 +1,4 @@
-# Resnet model family
+# ResNet model family
 
 ResNet, short for Residual Networks is a classic neural network used as a backbone for many computer vision tasks. This model was the winner of ImageNet challenge in 2015. The fundamental breakthrough with ResNet was it allowed us to train extremely deep neural networks with 150+layers successfully.
 
@@ -16,7 +16,7 @@ The approach behind this type of network is that instead of layers learn the und
 
 The advantage of adding this type of skip connection is because if any layer hurt the performance of architecture then it will be skipped by regularization. So, this results in training very deep neural network without the problems caused by vanishing/exploding gradient.  The authors of the paper experimented on 100-1000 layers on CIFAR-10 dataset.
 
-# ResNet model family
+# ResNet model architecture
 
 Convulutional blocks in each ResNet model
 
