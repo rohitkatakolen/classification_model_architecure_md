@@ -14,7 +14,7 @@ The DenseNet architecture is all about modifying this standard CNN architecture.
 
 # DenseNet model architecture
 
-![](https://github.com/rohitkatakolen/classification_model_architecure_md/blob/main/img/alexnet_model_architecture.png)
+![](https://github.com/rohitkatakolen/classification_model_architecure_md/blob/main/img/densenet_architecture.png)
 
 
 ## DenseNet Image Classification
