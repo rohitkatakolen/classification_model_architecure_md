@@ -1,24 +1,27 @@
-# DenseNet model description
+# VggNet model description
 
-The DenseNet architecture is all about modifying this standard CNN architecture. In a DenseNet architecture, each layer is connected to every other layer, hence the name Densely Connected Convolutional Network.  
+The VggNet architecture is the 1st runner up of ILSVR2014 in the classification task while the winner is GoogLeNet. Many modern image classification models are built on top of this architecture. 
 
-# DenseNet features
+# VggNet features
 
-In DenseNet models, for each layer, the feature maps of all the preceding layers are used as inputs, and its own feature maps are used as input for each subsequent layers. This is done to enable maximum information flow between the layers of the network. To preserve the feed-forward nature, each layer obtains inputs from all the previous layers and passes on its own feature maps to all the layers which will come after it. Unlike Resnets it does not combine features through summation but combines the features by concatenating them. 
+This network is characterized by its simplicity, using only 3×3 convolutional layers stacked on top of each other in increasing depth. Reducing volume size is handled by max pooling. 
+To reduce the number of parameters, authors propose to use a small respective field to replace large one. Authors conclude:
+    a. Incorporate multiple non-linear rectification layers instead of a single rectification layer are more discriminative.
+    b. It helps to decrease the number of parameters while keeping performance. 
 
-# DenseNet model architecture
+# VggNet model architecture
 
-![](https://github.com/rohitkatakolen/classification_model_architecure_md/blob/main/img/densenet_architecture.png)
+![](https://github.com/rohitkatakolen/classification_model_architecure_md/blob/main/img/vgg_models_architecture.png)
 
 
 
-# Differnt models in DenseNet
+# Differnt models in VggNet
 ![](https://github.com/rohitkatakolen/classification_model_architecure_md/blob/main/img/densenet_models_architecture_2.png)
 
 Each architecture consists of four DenseBlocks with varying number of layers. For example, the DenseNet-121 has [6,12,24,16] layers in the four dense blocks whereas DenseNet-169 has [6, 12, 32, 32] layers.
 
 
-## DenseNet Image Classification
+## VggNet Image Classification
 | Model    | Nano (optimized) | TX2 (optimized)    | RTX (optimized)    |GTX-1650 (optimized)    |
 |----------|:--------------:|:---------------:|:----------------:|:-----------------:|
 | DenseNet |  |  |  |  |
