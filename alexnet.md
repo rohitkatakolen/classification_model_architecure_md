@@ -1,4 +1,4 @@
-# AlexNet model family
+# AlexNet model desciption
 
 AlexNet is an convolutional neural network which has had a large impact on the field of machine learning, specifically in the application of deep learning to machine vision. It famously won the 2012 ImageNet LSVRC-2012 competition by a large margin. The architecture consists of eight layers: five convolutional layers and three fully-connected layers.
 
