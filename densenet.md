@@ -10,9 +10,12 @@ In DenseNet models, for each layer, the feature maps of all the preceding layers
 
 ![](https://github.com/rohitkatakolen/classification_model_architecure_md/blob/main/img/densenet_architecture.png)
 
+
+
+# Differnt models in DenseNet
+![](https://github.com/rohitkatakolen/classification_model_architecure_md/blob/main/img/densenet_models_architecture_2.png)
+
 Each architecture consists of four DenseBlocks with varying number of layers. For example, the DenseNet-121 has [6,12,24,16] layers in the four dense blocks whereas DenseNet-169 has [6, 12, 32, 32] layers.
-
-
 
 
 ## DenseNet Image Classification
