@@ -9,16 +9,10 @@ To reduce the number of parameters, authors propose to use a small respective fi
     a. Incorporate multiple non-linear rectification layers instead of a single rectification layer are more discriminative.
     b. It helps to decrease the number of parameters while keeping performance. 
 
-# VggNet model architecture
-
-![](https://github.com/rohitkatakolen/classification_model_architecure_md/blob/main/img/vgg_models_architecture.png)
-
-
 
 # Differnt models in VggNet
-![](https://github.com/rohitkatakolen/classification_model_architecure_md/blob/main/img/densenet_models_architecture_2.png)
+![](https://github.com/rohitkatakolen/classification_model_architecure_md/blob/main/img/vggnet_models_architecture.png)
 
-Each architecture consists of four DenseBlocks with varying number of layers. For example, the DenseNet-121 has [6,12,24,16] layers in the four dense blocks whereas DenseNet-169 has [6, 12, 32, 32] layers.
 
 
 ## VggNet Image Classification
